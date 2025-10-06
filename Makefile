@@ -8,4 +8,5 @@ format:
 	black src tests
 
 test:
-	pytest
+	PYTHONPATH=. pytest
+
